@@ -1,0 +1,81 @@
+/* TodoList.css */
+.todo-container {
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 550px;
+}
+
+.todo-title {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #a5d6a7;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.add-btn {
+  background-color: rgba(232, 242, 235, 0.978);
+  border: 3px solid #032004;
+  color: rgb(14, 1, 1);
+  padding: 10px 15px;
+  border-radius: 0 8px 8px 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-list {
+  list-style-type: none;
+  text-decoration-color: aqua;
+  padding: 0;
+}
+
+.task-item {
+  background-color: #a5d6a7;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: rgba(242, 241, 241, 0.978);
+  color: rgb(8, 8, 8);
+  border: 3px solid #032004;
+
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.deleteAll-btn {
+  background-color: rgba(236, 235, 235, 0.978);
+  border: 3px solid #032004;
+
+  color: #040404;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.todo-container {
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  padding: 25px;
+  text-align: center;
+  margin-top: 1px;
+}
